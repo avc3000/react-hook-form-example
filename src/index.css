@@ -1,0 +1,64 @@
+body {
+  color: white;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: blue;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  font-size: medium;
+  border: none;
+}
+
+span {
+  display: block;
+  color: tomato;
+  font-size: medium;
+}
+
+h2 {
+  color: orange;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+  width: 100%;
+  font-weight: bold;
+  font-size: medium;
+  color: black;
+  background: green;
+  border-radius: 10px;
+  height: 2rem;
+  font-family: 'Courier New', Courier, monospace;
+  border: none;
+  letter-spacing: .1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background: limegreen;
+}
+
+.form {
+  border: 2px solid crimson;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.terminos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
